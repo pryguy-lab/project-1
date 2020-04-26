@@ -1,6 +1,47 @@
-.placeholder {
+body{
+    background-color: rgb(53, 150, 129);
+}
+
+
+.container{
+    margin-left: auto;
+    margin-right: auto;
+    width:512px;
+}
+header{
+    background-color: blue;
+    height:118px;
+    text-align: center;
+
+    }
+
+nav{
     background-color: red;
+    height:40px;
+    
 }
-.anotherclass {
-    background-color: lightseagreen;
+
+
+main{
+    background-color: orange;
+    height:200px;
+    text-align: center;
+
 }
+footer{
+    background-color: green;
+    height:100px;
+   
+}
+h1{
+    font-size: 84px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+    
+   
