@@ -1,43 +1,56 @@
 
-body{
+.main_body{
     font-family: 'Parisienne', cursive;
-    background-size: cover;
-    background-color:rgb(15, 128, 71);
-}
-
-html{
+    background-size:auto;
+    background-color:rgb(24, 151, 67);
+    border: 2px solid black;
     height: 100%;
-
 }
- .container{
+  
+html{
+    height:100%
+}
+ .main_container{
     background-image: url(../images/Tampa2.jpg);
-    background-color: teal;
     margin-left: auto;
     margin-right: auto;
-    width:1024px;
-    height:440px;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.destination_container{
+    background-image:url(../images/GrandHavenPier.JPG) ;
+    margin-left: auto;
+    margin-right: auto;
+    width:100%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
 
 }
-header{
+.main_header ,.destination_header{
     height:110px;
     text-align: center;
 }
 
 
-nav{
+.main_nav{
     background-color:rgba(0, 0, 0, 0.096);
     text-align: center;
+    margin-top: 80px;
 }
-nav a {
+.main_nav a {
     font-weight: bold;
     text-decoration: none;
     font-size: 19px;
-    padding-left: 60px;
-    padding-right: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
    
 }
 
-main{
+.main_main{
     height:200px;
     text-align: center;
     padding-top: 10px;
@@ -46,24 +59,36 @@ main{
 
 
 }
-h1{
-    font-size: 44px;
+.main_h1{
+    font-size: 55px;
     color: rgb(63,50,230);
+    
+}
+
+
+.destination_body{
+    background-color: rgb(89, 104, 150);
+    font-family: 'Parisienne', cursive;
+    background-size:auto;
+    border: 2px solid black;
+    height: 100%;
+}
+
 
     
-}     
-    
-.p1{
-    font-size: 20px;
+.main_p1{
+    font-size: 30px;
     color: rgb(49, 52, 88);
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.p2 {
+.main_p2 {
     font-weight: bold;
     font-size: 25px;
     color:purple;
+    /* margin-top: 40px;
+    margin-bottom: 40px; */
 }
-.p2 a {
+.main_p2 a {
 
     color:rgb(63,50,230);
 }
@@ -75,11 +100,11 @@ h1{
 
 } */
 
-footer p {
-    background-color: rgba(22, 6, 6, 0.158);
-    color:rgb(0, 0, 0);   
+.main_footer{
+    background-color: rgba(89, 84, 102, 0.308);    
     text-align: center;
     font-size: 20px;
+    font-weight: bold;
 }
 
 /* iframe {
